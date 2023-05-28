@@ -1039,16 +1039,14 @@ input[type="search"]::-webkit-search-results-decoration {
   /* Firefox */
 }
 
-.form-input:focus,
+/* .form-input:focus,
 .form-textarea:focus,
 .form-multiselect:focus,
 .form-select:focus,
 .form-checkbox:focus,
-.form-radio:focus{
-  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
-}
+.form-radio:focus {
+  @apply ring-0;
+} */
 
 /* Hamburger button */
 
@@ -1616,6 +1614,10 @@ input[type="search"]::-webkit-search-results-decoration {
   width: 100%;
 }
 
+.min-w-0{
+  min-width: 0px;
+}
+
 .max-w-3xl{
   max-width: 48rem;
 }
@@ -1821,6 +1823,18 @@ input[type="search"]::-webkit-search-results-decoration {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
+.space-y-14 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-0 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0px * var(--tw-space-y-reverse));
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]){
@@ -2129,6 +2143,26 @@ input[type="search"]::-webkit-search-results-decoration {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-14{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.py-40{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pb-0{
@@ -2583,6 +2617,12 @@ input[type="search"]::-webkit-search-results-decoration {
 
 [x-cloak=""] {
   display: none;
+}
+
+body {
+  background-color: white;
+  background-opacity: 1;
+  color: black;
 }
 
 .before\:pointer-events-none::before{
@@ -3299,6 +3339,12 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
+  .md\:space-y-14 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(3.5rem * var(--tw-space-y-reverse));
+  }
+
   .md\:border-b{
     border-bottom-width: 1px;
   }
@@ -3320,6 +3366,11 @@ input[type="search"]::-webkit-search-results-decoration {
   .md\:py-20{
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .md\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .md\:pb-20{
@@ -3537,3 +3588,4 @@ input[type="search"]::-webkit-search-results-decoration {
 .\[\&\>div\]\:bg-slate-700\/20>div{
   background-color: rgb(51 65 85 / 0.2);
 }
+  
