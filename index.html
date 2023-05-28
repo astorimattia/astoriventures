@@ -10,7 +10,7 @@
     <link href="./style.css" rel="stylesheet">
 </head>
 
-<body class="font-inter antialiased bg-slate-900 text-slate-100 tracking-tight">
+<body class="font-inter antialiased bg-slate-50 text-slate-900 tracking-tight">
 
     <!-- Page wrapper -->
     <div class="flex flex-col min-h-screen overflow-hidden">
@@ -49,7 +49,7 @@
                     </div>
 
                     <!-- Illustration -->
-                    <div class="absolute inset-0 -z-10 -mx-28 rounded-b-[3rem] pointer-events-none overflow-hidden" aria-hidden="true">
+                    <div class="absolute opacity-50 inset-0 -z-10 -mx-28 rounded-b-[3rem] pointer-events-none overflow-hidden" aria-hidden="true">
                         <div class="absolute left-1/2 -translate-x-1/2 bottom-0 -z-10">
                             <img src="./images/glow-bottom.svg" class="max-w-none" width="2146" height="774" alt="Hero Illustration">
                         </div>
@@ -59,15 +59,13 @@
 
                         <!-- Hero content -->
                         <div class="max-w-3xl mx-auto text-center">
-                            <h1 class="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4" data-aos="fade-down">Astori Ventures</h1>
-                            <p class="text-lg text-slate-300 mb-8" data-aos="fade-down" data-aos-delay="200">Providing quality services to Venture Capital firms and founders.</p>
-                            <div class="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4" data-aos="fade-down" data-aos-delay="400">
-                            </div>
+                            <h1 class="h1 text-black bg-clip-text pb-4" data-aos="fade-down">Astori Ventures</h1>
+                            <p class="text-lg text-slate-900 mb-8" data-aos="fade-down" data-aos-delay="200">Providing quality services to Venture Capital firms and founders.</p>                            
                             <div class="mb-6" data-aos="fade-down">
-                                <div class="inline-flex relative before:absolute before:inset-0 before:bg-purple-500 before:blur-md">
-                                    <a class="btn-sm py-0.5 text-slate-300 hover:text-white transition duration-150 ease-in-out group [background:linear-gradient(theme(colors.purple.500),_theme(colors.purple.500))_padding-box,_linear-gradient(theme(colors.purple.500),_theme(colors.purple.200)_75%,_theme(colors.transparent)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/50 before:rounded-full before:pointer-events-none shadow" href="#0">
+                                <div class="inline-flex relative before:absolute before:inset-0 before:bg-white before:blur-md">
+                                    <a class="btn-sm py-0.5 text-slate-50 hover:text-white transition duration-150 ease-in-out group [background:linear-gradient(theme(colors.white),_theme(colors.white))_padding-box,_linear-gradient(theme(colors.white),_theme(colors.white)_75%,_theme(colors.transparent)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/50 before:rounded-full before:pointer-events-none shadow" href="#features">
                                         <span class="relative inline-flex items-center">
-                                            Our services <span class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                                            Our services <span class="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                                         </span>
                                     </a>
                                 </div>
@@ -94,17 +92,17 @@
                             <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
                             <!-- * Initialized in src/js/main.js -->
                             <!-- * Custom styles in src/css/additional-styles/theme.scss -->
-                            <div class="clients-carousel swiper-container relative before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-900 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-900">
+                            <div class="clients-carousel swiper-container relative before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-50 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-50">
                                 <div class="swiper-wrapper !ease-linear select-none items-center">
                                     <!-- Carousel items -->
                                     <div class="swiper-slide !w-auto">
                                         <img src="./images/bidsight.png" alt="Client 01" width="110" height="21" />
                                     </div>
                                     <div class="swiper-slide !w-auto">
-                                        <img src="./images/bluebirds.png" alt="Client 02" width="70" height="25" />
+                                        <img src="./images/bluebirds.png" alt="Client 02" width="95" height="25" />
                                     </div>
                                     <div class="swiper-slide !w-auto">
-                                        <img class="mt-1" src="./images/boothai.png" alt="Client 03" width="107" height="33" />
+                                        <img src="./images/boothai.png" alt="Client 03" width="107" height="33" />
                                     </div>
                                     <div class="swiper-slide !w-auto">
                                         <img src="./images/buildjet.png" alt="Client 04" width="85" height="36" />
@@ -113,16 +111,31 @@
                                         <img src="./images/dagworks.png" alt="Client 05" width="86" height="18" />
                                     </div>
                                     <div class="swiper-slide !w-auto">
-                                        <img src="./images/dill.png" alt="Client 06" width="37" height="34" />
+                                        <img src="./images/dill.png" alt="Client 06" width="30" height="34" />
                                     </div>
                                     <div class="swiper-slide !w-auto">
-                                        <img src="./images/gradientj.png" alt="Client 07" width="83" height="23" />
+                                        <img src="./images/gradientj.png" alt="Client 07" width="90" height="23" />
                                     </div>
                                     <div class="swiper-slide !w-auto">
                                         <img src="./images/invitris.png" alt="Client 08" width="37" height="26" />
                                     </div>
                                     <div class="swiper-slide !w-auto">
-                                        <img class="mt-2" src="./images/ivy.png" alt="Client 09" width="55" height="28" />
+                                        <img src="./images/ivy.png" alt="Client 09" width="55" height="28" />
+                                    </div>
+                                    <div class="swiper-slide !w-auto">
+                                        <img src="./images/neptyne.png" alt="Client 10" width="80" height="28" />
+                                    </div>
+                                    <div class="swiper-slide !w-auto">
+                                        <img src="./images/palomma.png" alt="Client 11" width="95" height="28" />
+                                    </div>
+                                    <div class="swiper-slide !w-auto">
+                                        <img src="./images/peeba.png" alt="Client 12" width="85" height="28" />
+                                    </div>
+                                    <div class="swiper-slide !w-auto">
+                                        <img src="./images/persana.png" alt="Client 13" width="35" height="28" />
+                                    </div>
+                                    <div class="swiper-slide !w-auto">
+                                        <img src="./images/ruuf.png" alt="Client 14" width="30" height="34" />
                                     </div>
                                 </div>
                             </div>
@@ -132,58 +145,58 @@
             </section>
 
             <!-- Features -->
-            <section>
+            <section id="features">
                 <div class="relative max-w-6xl mx-auto px-4 sm:px-6">
 
                     <!-- Illustration -->
-                    <div class="absolute inset-0 -z-10 -mx-28 rounded-t-[3rem] pointer-events-none overflow-hidden" aria-hidden="true">
+                    <div class="absolute opacity-50 inset-0 -z-10 -mx-28 rounded-t-[3rem] pointer-events-none overflow-hidden" aria-hidden="true">
                         <div class="absolute left-1/2 -translate-x-1/2 top-0 -z-10">
-                            <img src="./images/glow-top.svg" class="max-w-none" width="1404" height="658" alt="Features Illustration">
+                            <img src="./images/glow-top.svg" class="max-w-none" width="1404" height="1100" alt="Features Illustration">
                         </div>
-                    </div>
+                    </div> 
 
                     <div class="pt-16 pb-12 md:pt-52 md:pb-20">
 
                         <div x-data="{ tab: '1' }">
 
                             <!-- For VCs -->
-                            <div class="max-w-xl mx-auto md:max-w-none flex flex-col md:flex-row md:space-x-8 lg:space-x-16 xl:space-x-20 space-y-8 space-y-reverse md:space-y-0">
+                            <div class="max-w-xl text-black mx-auto md:max-w-none flex flex-col md:flex-row md:space-x-8 lg:space-x-16 xl:space-x-20 space-y-8 space-y-reverse md:space-y-0">
 
                                 <!-- Content -->
                                 <div class="md:w-7/12 lg:w-1/2 order-1 md:order-none max-md:text-center" data-aos="fade-down">
                                     <!-- Content #1 -->
                                     <div>
-                                        <div class="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">For VCs</div>
+                                        <div class="inline-flex font-medium bg-clip-text bg-gradient-to-r text-blue-500 pb-3">For VCs</div>
                                     </div>
-                                    <h3 class="h3 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-3">Outsource mundane tasks</h3>
-                                    <p class="text-lg text-slate-400 mb-8">We run mundane tasks for you so you can focus on closing deals quicker and staying up to speed with the market.r</p>
+                                    <h3 class="h3 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-3">Outsource mundane tasks</h3>
+                                    <p class="text-lg text-slate-600 mb-8">We run mundane tasks for you so you can focus on closing deals quicker and staying up to speed with the market.r</p>
                                     <div class="mt-8 max-w-xs max-md:mx-auto space-y-2">
                                         <button
-                                            class="flex items-center text-sm font-medium text-slate-50 rounded border bg-slate-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100"
-                                            :class="tab !== '1' ? 'border-slate-700 opacity-50' : 'border-purple-700 shadow shadow-purple-500/25'"
+                                            class="flex items-center text-sm font-medium text-slate-900 rounded border bg-white/10 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100"
+                                            :class="tab !== '1' ? 'border-slate-700 opacity-50' : 'border-blue-500 shadow shadow-blue-500/25'"
                                             @click.prevent="tab = '1'"
                                         >
-                                            <svg class="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                            <svg class="shrink-0 fill-slate-900 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                                                 <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12Zm0 14V2H2v12h12Zm-3-7H5a1 1 0 1 1 0-2h6a1 1 0 0 1 0 2Zm0 4H5a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2Z" />
                                             </svg>
                                             <span>Due diligence</span>
                                         </button>
                                         <button
-                                            class="flex items-center text-sm font-medium text-slate-50 rounded border bg-slate-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100"
-                                            :class="tab !== '2' ? 'border-slate-700 opacity-50' : 'border-purple-700 shadow shadow-purple-500/25'"
+                                            class="flex items-center text-sm font-medium text-slate-900 rounded border bg-white/10 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100"
+                                            :class="tab !== '2' ? 'border-slate-700 opacity-50' : 'border-blue-500 shadow shadow-blue-500/25'"
                                             @click.prevent="tab = '2'"
                                         >
-                                            <svg class="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                            <svg class="shrink-0 fill-slate-900 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                                                 <path d="M2 6H0V2a2 2 0 0 1 2-2h4v2H2v4ZM16 6h-2V2h-4V0h4a2 2 0 0 1 2 2v4ZM14 16h-4v-2h4v-4h2v4a2 2 0 0 1-2 2ZM6 16H2a2 2 0 0 1-2-2v-4h2v4h4v2Z" />
                                             </svg>
                                             <span>Dealflow</span>
                                         </button>
                                         <button
-                                            class="flex items-center text-sm font-medium text-slate-50 rounded border bg-slate-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100"
-                                            :class="tab !== '3' ? 'border-slate-700 opacity-50' : 'border-purple-700 shadow shadow-purple-500/25'"
+                                            class="flex items-center text-sm font-medium text-slate-900 rounded border bg-white/10 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100"
+                                            :class="tab !== '3' ? 'border-slate-700 opacity-50' : 'border-blue-500 shadow shadow-blue-500/25'"
                                             @click.prevent="tab = '3'"
                                         >
-                                            <svg class="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                            <svg class="shrink-0 fill-slate-900 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                                                 <path d="M14.3.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-8 8c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l8-8ZM15 7c.6 0 1 .4 1 1 0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8c.6 0 1 .4 1 1s-.4 1-1 1C4.7 2 2 4.7 2 8s2.7 6 6 6 6-2.7 6-6c0-.6.4-1 1-1Z" />
                                             </svg>
                                             <span>Portfolio synergies</span>
@@ -206,9 +219,9 @@
                                                 <svg class="absolute inset-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 will-change-transform pointer-events-none blur-md" width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
                                                     <defs>
                                                         <linearGradient id="pulse-a" x1="50%" x2="50%" y1="100%" y2="0%">
-                                                            <stop offset="0%" stop-color="#A855F7" />
-                                                            <stop offset="76.382%" stop-color="#FAF5FF" />
-                                                            <stop offset="100%" stop-color="#6366F1" />
+                                                            <stop offset="0%" stop-color="#00adbd" />002d52
+                                                            <stop offset="76.382%" stop-color="#d4fbff" />
+                                                            <stop offset="100%" stop-color="#00adbd" />
                                                         </linearGradient>
                                                     </defs>
                                                     <g fill-rule="evenodd">
@@ -221,9 +234,9 @@
                                                 <div class="absolute inset-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none w-[500px] h-[500px] rounded-full overflow-hidden [mask-image:_radial-gradient(black,_transparent_60%)]">
                                                     <div class="h-[200%] animate-endless">
                                                         <div class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"></div>
-                                                        <div class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.purple.500)_48px,_theme(colors.purple.500)_49px)]"></div>
+                                                        <div class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.blue.500)_48px,_theme(colors.blue.500)_49px)]"></div>
                                                         <div class="absolute inset-0 [background:_repeating-linear-gradient(90deg,transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"></div>
-                                                        <div class="absolute inset-0 [background:_repeating-linear-gradient(90deg,transparent,_transparent_48px,_theme(colors.purple.500)_48px,_theme(colors.purple.500)_49px)]"></div>
+                                                        <div class="absolute inset-0 [background:_repeating-linear-gradient(90deg,transparent,_transparent_48px,_theme(colors.blue.500)_48px,_theme(colors.blue.500)_49px)]"></div>
                                                     </div>
                                                 </div>
                                                 <!-- Icons -->
@@ -314,9 +327,9 @@
                                                 <div class="absolute inset-0 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none w-[500px] h-[500px] rounded-full overflow-hidden [mask-image:_radial-gradient(black,_transparent_60%)]">
                                                     <div class="h-[200%] animate-endless">
                                                         <div class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"></div>
-                                                        <div class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.purple.500)_48px,_theme(colors.purple.500)_49px)]"></div>
+                                                        <div class="absolute inset-0 [background:_repeating-linear-gradient(transparent,_transparent_48px,_theme(colors.blue.500)_48px,_theme(colors.blue.500)_49px)]"></div>
                                                         <div class="absolute inset-0 [background:_repeating-linear-gradient(90deg,transparent,_transparent_48px,_theme(colors.white)_48px,_theme(colors.white)_49px)] blur-[2px] opacity-20"></div>
-                                                        <div class="absolute inset-0 [background:_repeating-linear-gradient(90deg,transparent,_transparent_48px,_theme(colors.purple.500)_48px,_theme(colors.purple.500)_49px)]"></div>
+                                                        <div class="absolute inset-0 [background:_repeating-linear-gradient(90deg,transparent,_transparent_48px,_theme(colors.blue.500)_48px,_theme(colors.blue.500)_49px)]"></div>
                                                     </div>
                                                 </div>
                                                 <!-- Icons -->
@@ -374,37 +387,37 @@
                                 <div class="md:w-7/12 lg:w-1/2 order-1 md:order-none max-md:text-center" data-aos="fade-down">
                                     <!-- Content #1 -->
                                     <div>
-                                        <div class="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">For founders</div>
+                                        <div class="inline-flex font-medium bg-clip-text text-blue-500 pb-3">For founders</div>
                                     </div>
-                                    <h3 class="h3 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-3">Raise more money</h3>
-                                    <p class="text-lg text-slate-400 mb-8">We help you run your fundraise, so you can focus on talking to investors and raise more money.</p>
+                                    <h3 class="h3 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-3">Raise more money</h3>
+                                    <p class="text-lg text-slate-600 mb-8">We help you run your fundraise, so you can focus on talking to investors and raise more money.</p>
                                     <div class="mt-8 max-w-xs max-md:mx-auto space-y-2">
                                         <button
-                                            class="flex items-center text-sm font-medium text-slate-50 rounded border bg-slate-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100"
-                                            :class="tab !== '4' ? 'border-slate-700 opacity-50' : 'border-purple-700 shadow shadow-purple-500/25'"
+                                            class="flex items-center text-sm font-medium text-slate-900 rounded border bg-white/10 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100"
+                                            :class="tab !== '4' ? 'border-slate-700 opacity-50' : 'border-blue-500 shadow shadow-blue-500/25'"
                                             @click.prevent="tab = '4'"
                                         >
-                                            <svg class="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                            <svg class="shrink-0 fill-slate-900 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                                                 <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12Zm0 14V2H2v12h12Zm-3-7H5a1 1 0 1 1 0-2h6a1 1 0 0 1 0 2Zm0 4H5a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2Z" />
                                             </svg>
                                             <span>Pitch deck</span>
                                         </button>
                                         <button
-                                            class="flex items-center text-sm font-medium text-slate-50 rounded border bg-slate-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100"
-                                            :class="tab !== '5' ? 'border-slate-700 opacity-50' : 'border-purple-700 shadow shadow-purple-500/25'"
+                                            class="flex items-center text-sm font-medium text-slate-900 rounded border bg-white/10 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100"
+                                            :class="tab !== '5' ? 'border-slate-700 opacity-50' : 'border-blue-500 shadow shadow-blue-500/25'"
                                             @click.prevent="tab = '5'"
                                         >
-                                            <svg class="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                            <svg class="shrink-0 fill-slate-900 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                                                 <path d="M2 6H0V2a2 2 0 0 1 2-2h4v2H2v4ZM16 6h-2V2h-4V0h4a2 2 0 0 1 2 2v4ZM14 16h-4v-2h4v-4h2v4a2 2 0 0 1-2 2ZM6 16H2a2 2 0 0 1-2-2v-4h2v4h4v2Z" />
                                             </svg>
                                             <span>Storytelling</span>
                                         </button>
                                         <button
-                                            class="flex items-center text-sm font-medium text-slate-50 rounded border bg-slate-800/25 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100"
-                                            :class="tab !== '6' ? 'border-slate-700 opacity-50' : 'border-purple-700 shadow shadow-purple-500/25'"
+                                            class="flex items-center text-sm font-medium text-slate-900 rounded border bg-white/10 w-full px-3 py-2 transition duration-150 ease-in-out hover:opacity-100"
+                                            :class="tab !== '6' ? 'border-slate-700 opacity-50' : 'border-blue-500 shadow shadow-blue-500/25'"
                                             @click.prevent="tab = '6'"
                                         >
-                                            <svg class="shrink-0 fill-slate-300 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                            <svg class="shrink-0 fill-slate-900 mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
                                                 <path d="M14.3.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-8 8c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l8-8ZM15 7c.6 0 1 .4 1 1 0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8c.6 0 1 .4 1 1s-.4 1-1 1C4.7 2 2 4.7 2 8s2.7 6 6 6 6-2.7 6-6c0-.6.4-1 1-1Z" />
                                             </svg>
                                             <span>Investor connections</span>
@@ -413,126 +426,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Testimonials -->
-            <section>
-                <div class="max-w-3xl mx-auto px-4 sm:px-6">
-                    <div class="relative pb-12 md:pb-20">
-
-                        <!-- Particles animation -->
-                        <div class="absolute left-1/2 -translate-x-1/2 top-0 -z-10 w-80 h-80 -mt-6">
-                            <div class="absolute inset-0 -z-10" aria-hidden="true">
-                                <canvas data-particle-animation data-particle-quantity="10" data-particle-staticity="30"></canvas>
-                            </div>
-                        </div>
-                        
-                        <!-- Carousel -->
-                        <div class="text-center" x-data="carousel">
-                            <!-- Testimonial image -->
-                            <div class="relative h-32 [mask-image:_linear-gradient(0deg,transparent,theme(colors.white)_40%,theme(colors.white))]">
-                                <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[480px] h-[480px] -z-10 pointer-events-none before:rounded-full rounded-full before:absolute before:inset-0 before:bg-gradient-to-b before:from-slate-400/20 before:to-transparent before:to-20% after:rounded-full after:absolute after:inset-0 after:bg-slate-900 after:m-px before:-z-20 after:-z-20">
-                                    <!-- Alpine.js template for testimonial images: https://github.com/alpinejs/alpine#x-for -->
-                                    <template x-for="(item, index) in items" :key="index">
-                                        <div
-                                            x-show="active === index"
-                                            class="absolute inset-0 -z-10"
-                                            x-transition:enter="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 order-first"
-                                            x-transition:enter-start="opacity-0 -rotate-[60deg]"
-                                            x-transition:enter-end="opacity-100 rotate-0"
-                                            x-transition:leave="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700"
-                                            x-transition:leave-start="opacity-100 rotate-0"
-                                            x-transition:leave-end="opacity-0 rotate-[60deg]"
-                                        >
-                                            <img class="relative top-11 left-1/2 -translate-x-1/2 rounded-full" :src="item.img" width="56" height="56" :alt="item.name">
-                                        </div>
-                                    </template>                                
-                                </div>
-                            </div>
-                            <!-- Text -->
-                            <div class="mb-10">
-                                <div class="relative flex flex-col transition-all duration-150 delay-300 ease-in-out" x-ref="testimonials">
-                                    <!-- Alpine.js template for testimonials: https://github.com/alpinejs/alpine#x-for -->
-                                    <template x-for="(item, index) in items" :key="index">
-                                        <div
-                                            x-show="active === index"
-                                            x-transition:enter="transition ease-in-out duration-500 delay-200 order-first"
-                                            x-transition:enter-start="opacity-0 -translate-x-4"
-                                            x-transition:enter-end="opacity-100 translate-x-0"
-                                            x-transition:leave="transition ease-out duration-300 delay-300 absolute"
-                                            x-transition:leave-start="opacity-100 translate-x-0"
-                                            x-transition:leave-end="opacity-0 translate-x-4"
-                                        >
-                                            <div class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60" x-text="item.quote"></div>
-                                        </div>
-                                    </template>
-                                </div>
-                            </div>
-                            <!-- Buttons -->
-                            <div class="flex flex-wrap justify-center -m-1.5">
-                                <!-- Alpine.js template for buttons: https://github.com/alpinejs/alpine#x-for -->
-                                <template x-for="(item, index) in items" :key="index">
-                                    <button
-                                        class="btn-sm m-1.5 text-xs py-1.5 text-slate-300 transition duration-150 ease-in-out [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none"
-                                        :class="active === index ? 'opacity-100' : 'opacity-30 hover:opacity-60'"
-                                        @click="active = index; stopAutorotate();"
-                                    >
-                                        <span class="relative">
-                                            <span class="text-slate-50" x-text="item.name"></span> <span class="text-slate-600">-</span> <span x-text="item.role"></span>
-                                        </span>
-                                    </button>
-                                </template>
-                            </div>
-                        </div>
-                        <!-- Carousel data and functionality: https://github.com/alpinejs/alpine -->
-                        <script>
-                            document.addEventListener('alpine:init', () => {
-                                Alpine.data('carousel', () => ({
-                                    active: 0,
-                                    autorotate: true,
-                                    autorotateTiming: 7000,
-                                    items: [
-                                        {
-                                            img: './images/testimonial-01.jpg',
-                                            quote: "The ability to capture responses is a game-changer. If a user gets tired of the sign up and leaves, that data is still persisted. Additionally, it's great to be able to select between formats.",
-                                            name: 'Jessie J',
-                                            role: 'Ltd Head of Product'
-                                        },
-                                        {
-                                            img: './images/testimonial-02.jpg',
-                                            quote: "I have been using this product for a few weeks now and I am blown away by the results. My skin looks visibly brighter and smoother, and I have received so many compliments on my complexion.",
-                                            name: 'Mark Luk',
-                                            role: 'Spark Founder & CEO'
-                                        },
-                                        {
-                                            img: './images/testimonial-03.jpg',
-                                            quote: "As a busy professional, I don't have a lot of time to devote to working out. But with this fitness program, I have seen amazing results in just a few short weeks. The workouts are efficient and effective.",
-                                            name: 'Jeff Kahl',
-                                            role: 'Appy Product Lead'
-                                        },
-                                    ],
-                                    init() {
-                                        if (this.autorotate) {
-                                            this.autorotateInterval = setInterval(() => {
-                                                this.active = this.active + 1 === this.items.length ? 0 : this.active + 1
-                                            }, this.autorotateTiming)
-                                        }
-                                        this.$watch('active', callback => this.heightFix())
-                                    },
-                                    stopAutorotate() {
-                                        clearInterval(this.autorotateInterval)
-                                        this.autorotateInterval = null
-                                    },
-                                    heightFix() {
-                                        this.$nextTick(() => {
-                                            this.$refs.testimonials.style.height = this.$refs.testimonials.children[this.active + 1].offsetHeight + 'px'
-                                        })
-                                    }
-                                }))
-                            })
-                        </script>
-            
                     </div>
                 </div>
             </section>
@@ -561,10 +454,10 @@
                         <!-- Content -->
                         <div class="max-w-3xl mx-auto text-center">
                             <div>
-                                <div class="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">The security first platform</div>
+                                <div class="inline-flex font-medium bg-clip-text bg-gradient-to-r from-purple-500 to-purple-200 pb-3">The security first platform</div>
                             </div>
-                            <h2 class="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Take control of your business</h2>
-                            <p class="text-lg text-slate-400 mb-8">All the lorem ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                            <h2 class="h2 bg-clip-text bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">Take control of your business</h2>
+                            <p class="text-lg text-slate-600 mb-8">All the lorem ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
                             <div>
                                 <a class="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group" href="#0">
                                     Get Started <span class="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
@@ -625,79 +518,79 @@
         
                     <!-- 2nd block -->
                     <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 class="text-sm text-slate-50 font-medium mb-2">Products</h6>
+                        <h6 class="text-sm text-slate-900 font-medium mb-2">Products</h6>
                         <ul class="text-sm space-y-2">
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Features</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Features</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Integrations</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Integrations</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Pricing & Plans</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Pricing & Plans</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Changelog</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Changelog</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Our method</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Our method</a>
                             </li>
                         </ul>
                     </div>
         
                     <!-- 3rd block -->
                     <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 class="text-sm text-slate-50 font-medium mb-2">Company</h6>
+                        <h6 class="text-sm text-slate-900 font-medium mb-2">Company</h6>
                         <ul class="text-sm space-y-2">
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">About us</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">About us</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Diversity & Inclusion</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Diversity & Inclusion</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Blog</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Blog</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Careers</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Careers</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Financial statements</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Financial statements</a>
                             </li>
                         </ul>
                     </div>
         
                     <!-- 4th block -->
                     <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 class="text-sm text-slate-50 font-medium mb-2">Resources</h6>
+                        <h6 class="text-sm text-slate-900 font-medium mb-2">Resources</h6>
                         <ul class="text-sm space-y-2">
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Community</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Community</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Terms of service</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Terms of service</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Report a vulnerability</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Report a vulnerability</a>
                             </li>
                         </ul>
                     </div>
         
                     <!-- 5th block -->
                     <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 class="text-sm text-slate-50 font-medium mb-2">Legals</h6>
+                        <h6 class="text-sm text-slate-900 font-medium mb-2">Legals</h6>
                         <ul class="text-sm space-y-2">
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Refund policy</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Refund policy</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Terms & Conditions</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Terms & Conditions</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Privacy policy</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Privacy policy</a>
                             </li>
                             <li>
-                                <a class="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Brand Kit</a>
+                                <a class="text-slate-600 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Brand Kit</a>
                             </li>
                         </ul>
                     </div>
