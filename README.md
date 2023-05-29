@@ -1,10 +1,4 @@
-# Stellar HTML
-
-HTML landing page template designed by Cruip.
-
-This HTML template is shipped with the (Tailwind CLI tool)[https://tailwindcss.com/docs/installation].
-
-* [Getting started](#getting-started)
+Astori Ventures
 
 ## Getting started
 
